@@ -1,1 +1,4 @@
-"body { background: #f0f0f0; }" 
+ body { font-family: Arial; display: flex; justify-content: center; padding-top: 100px; background: #f0f0f0; transition: 0.3s; }
+.card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+.dark { background: #222; }
+.dark .card { background: #333; color: white; }
